@@ -1,0 +1,70 @@
+@import url('https://fonts.google.com/specimen/Figtree');
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+}
+
+.tarjeta {
+    width:400px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 5px black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%)
+}
+
+.imagen img{
+    width: 100%;/* Ancho de la image, respecto al contenedor*/
+    border-radius: 15px;/*Redondeado de esquinas*/
+    margin-bottom: 15px;
+}
+
+.publicacion {
+    
+}
+
+button{
+    border:none;
+    border-radius: 3px;;
+    padding: 5px 10px;
+    align-items: center;;
+    font-weight: bold;
+    background-color: hsl(47, 88%, 63%);
+    
+}
+.publicacion p {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+    h1{
+        font-size: 24px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: start;
+        color: gray;
+    }
+
+.autor {
+    height: 50px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+}
+.autor img {
+    height: 75%;/* Ancho de la image, respecto al contenedor*/
+
+}
+
+.autor h4 {
+    padding: 10px;
+
+}
